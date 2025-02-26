@@ -13,20 +13,50 @@
         </style>
         <title>Dark style portfolio</title>
     </head> 
-    <body class="w-screen h-full bg-[#101111] overflox-x-hidden">
+    <body class="w-screen h-full bg-[#101111] overflox-x-hidden mb-[3rem] ">
         <header class="flex flex-col gap-[4.7rem] w-[100%] items-center">
-            <nav class="flex h-[5rem] mt-[2.5rem] px-[2.2rem] w-full items-center justify-between ">
+            <nav class="flex h-[5rem] mt-[2.5rem] md:mt-[4.6rem] px-[2.2rem] md:p$-[17.5rem] w-full items-center justify-between ">
                 <!-- logo  -->
-                <div class="flex gap-[0.9rem]">
-                    <img class="size-[3.322rem]" src="assets/images/logo.svg" alt="logo">
-                    <span class="text-[white] text-[1.812rem] font-[400] font-(--font-poppins)">znisa</span>
+                <div class="flex gap-[0.9rem] md:gap-[1.2rem]">
+                    <img class="size-[3.322rem] md:size-[4.4rem]" src="assets/images/logo.svg" alt="logo">
+                    <span class="text-[white] text-[1.812rem] md:text-[2.4rem] font-[400] font-(--font-poppins)">znisa</span>
+                </div>
+                <!-- nav bar -->
+                <div class="max-md:hidden">
+                    <div class="flex items-center justify-center p-[0.15rem] rounded-[3rem]" id="borderlinear" >
+                        <div class="flex items-center gap-[4rem] justify-between p-[0.6rem] rounded-[3rem] bg-[#1C1C1C] w-[100%]">
+                            <div class="flex px-[1rem] py-[0.6rem] rounded-[3rem] bg-[#292929]">
+                                <img src="assets/images/home.svg" alt="x">
+                            </div>
+                            <div class="text-[white] text-[1.6rem] font-[400] font-(--font-poppins)">
+                                About
+                            </div>
+                            <div class="text-[white] text-[white] text-[1.6rem] font-[400] font-(--font-poppins)">
+                                Projects
+                            </div>
+                            <div class="text-[white] text-[white] text-[1.6rem] pr-[3.2rem] font-[400] font-(--font-poppins)">
+                                Contact me
+                            </div>
+                        </div>    
+                    </div>
+                </div>
+                 <!-- bouton de fin de navbar -->
+                <div class="flex max-md:hidden items-center">
+                  <div class="flex items-center justify-center p-[0.1rem] h-[4.2rem]  rounded-[4rem]" id="borderlinear">
+                      <button class="text-[#101111] text-[0.9rem] text-[1.6rem]  w-[10.3rem] h-[4rem] rounded-[4rem] bg-gradient-to-r from-[#7A87FB] to-[#FFD49C] font-[500] font-(--font-poppins)">
+                          Hire me
+                      </button>
+                  </div> 
+                  <div class="flex items-center justify-center p-[0.1rem] size-[4rem] rounded-[50%]" id="borderlinear">
+                      <button class="text-[#101111] flex items-center justify-center size-[3.9rem] text-[0.9rem] rounded-[50%] bg-gradient-to-r from-[#7A87FB] to-[#FFD49C] font-[500] font-(--font-poppins)">
+                          <img class="size-[2rem]" src="assets/images/user.svg" alt="user logo">
+                      </button>
+                  </div>
                 </div>
                 <!-- menu -->
-                <div class="flex items-center justify-center p-[0.15rem] rounded-[2rem]" id="borderlinear" >
+                <div class="flex items-center justify-center p-[0.15rem] md:hidden rounded-[2rem]" id="borderlinear" >
                     <img class="px-[1rem] py-[0.6rem] border-[0.2rem] border-[#1C1C1C] rounded-[3rem] bg-[#292929]"src="assets/images/menu.svg" alt="image menu">
                 </div>
-
-
             </nav>
             <!-- grille -->
             <div class="grid w-full h-[30.964rem] grid-cols-4 grid-rows-7 relative">
@@ -55,23 +85,23 @@
                 <div class="border-l-[0.055rem] border-y-[0.055rem] border-[#FFFFFF33] flex items-center justify-center text-[white]"></div>
                 <div class="border-[0.055rem] border-[#FFFFFF33] flex items-center justify-center text-[white]"></div>
                 <div class="border-y-[0.055rem] border-[#FFFFFF33] flex items-center justify-center text-[white]"></div>
-                <!-- <div class="hidden border-[0.055rem] border-[#FFFFFF33] flex items-center justify-center text-[white]">18</div>
-                <div class="hidden border-[0.055rem] border-[#FFFFFF33] flex items-center justify-center text-[white]">19</div>
-                <div class="hidden border-[0.055rem] border-[#FFFFFF33] flex items-center justify-center text-[white]">20</div>
-                <div class="hidden border-[0.055rem] border-[#FFFFFF33] flex items-center justify-center text-[white]">21</div>
-                <div class="hidden border-[0.055rem] border-[#FFFFFF33] flex items-center justify-center text-[white]">22</div>
-                <div class="hidden border-[0.055rem] border-[#FFFFFF33] flex items-center justify-center text-[white]">23</div>
-                <div class="hidden border-[0.055rem] border-[#FFFFFF33] flex items-center justify-center text-[white]">24</div>
-                <div class="hidden border-[0.055rem] border-[#FFFFFF33] flex items-center justify-center text-[white]">25</div>
-                <div class="hidden border-[0.055rem] border-[#FFFFFF33] flex items-center justify-center text-[white]">26</div>
-                <div class="hidden border-[0.055rem] border-[#FFFFFF33] flex items-center justify-center text-[white]">27</div>
-                <div class="hidden border-[0.055rem] border-[#FFFFFF33] flex items-center justify-center text-[white]">28</div>
-                <div class="hidden border-[0.055rem] border-[#FFFFFF33] flex items-center justify-center text-[white]">29</div>
-                <div class="hidden border-[0.055rem] border-[#FFFFFF33] flex items-center justify-center text-[white]">30</div>
-                <div class="hidden border-[0.055rem] border-[#FFFFFF33] flex items-center justify-center text-[white]">31</div>
-                <div class="hidden border-[0.055rem] border-[#FFFFFF33] flex items-center justify-center text-[white]">32</div>
-                <div class="hidden border-[0.055rem] border-[#FFFFFF33] flex items-center justify-center text-[white]">33</div>
-                <div class="hidden border-[0.055rem] border-[#FFFFFF33] flex items-center justify-center text-[white]">34</div>  -->
+                <div class="hidden border-[0.055rem] border-[#FFFFFF33] md:flex items-center justify-center text-[white]">18</div>
+                <div class="hidden border-[0.055rem] border-[#FFFFFF33] md:flex items-center justify-center text-[white]">19</div>
+                <div class="hidden border-[0.055rem] border-[#FFFFFF33] md:flex items-center justify-center text-[white]">20</div>
+                <div class="hidden border-[0.055rem] border-[#FFFFFF33] md:flex items-center justify-center text-[white]">21</div>
+                <div class="hidden border-[0.055rem] border-[#FFFFFF33] md:flex items-center justify-center text-[white]">22</div>
+                <div class="hidden border-[0.055rem] border-[#FFFFFF33] md:flex items-center justify-center text-[white]">23</div>
+                <div class="hidden border-[0.055rem] border-[#FFFFFF33] md:flex items-center justify-center text-[white]">24</div>
+                <div class="hidden border-[0.055rem] border-[#FFFFFF33] md:flex items-center justify-center text-[white]">25</div>
+                <div class="hidden border-[0.055rem] border-[#FFFFFF33] md:flex items-center justify-center text-[white]">26</div>
+                <div class="hidden border-[0.055rem] border-[#FFFFFF33] md:flex items-center justify-center text-[white]">27</div>
+                <div class="hidden border-[0.055rem] border-[#FFFFFF33] md:flex items-center justify-center text-[white]">28</div>
+                <div class="hidden border-[0.055rem] border-[#FFFFFF33] md:flex items-center justify-center text-[white]">29</div>
+                <div class="hidden border-[0.055rem] border-[#FFFFFF33] md:flex items-center justify-center text-[white]">30</div>
+                <div class="hidden border-[0.055rem] border-[#FFFFFF33] md:flex items-center justify-center text-[white]">31</div>
+                <div class="hidden border-[0.055rem] border-[#FFFFFF33] md:flex items-center justify-center text-[white]">32</div>
+                <div class="hidden border-[0.055rem] border-[#FFFFFF33] md:flex items-center justify-center text-[white]">33</div>
+                <div class="hidden border-[0.055rem] border-[#FFFFFF33] md:flex items-center justify-center text-[white]">34</div> 
                 <img class="absolute left-[8.68rem] top-[3.7rem] size-[1.4rem]" src="assets/images/etoile.svg" alt="etoile">
                 <img class="absolute left-[27.4rem] top-[21.45rem] size-[1.4rem]" src="assets/images/etoile.svg" alt="etoile">
             </div>
