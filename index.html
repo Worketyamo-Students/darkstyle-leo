@@ -14,8 +14,8 @@
         <title>Dark style portfolio</title>
     </head> 
     <body class="w-screen h-full bg-[#101111] overflox-x-hidden mb-[3rem] ">
-        <header class="flex flex-col gap-[4.7rem] w-[100%] items-center">
-            <nav class="flex h-[5rem] mt-[2.5rem] md:mt-[4.6rem] px-[2.2rem] md:p$-[17.5rem] w-full items-center justify-between ">
+        <header class="flex md:px-[17.1rem] flex-col gap-[4.7rem] w-[100%] items-center">
+            <nav class="flex h-[5rem] mt-[2.5rem] md:mt-[4.6rem]  w-full items-center justify-between ">
                 <!-- logo  -->
                 <div class="flex gap-[0.9rem] md:gap-[1.2rem]">
                     <img class="size-[3.322rem] md:size-[4.4rem]" src="assets/images/logo.svg" alt="logo">
@@ -28,13 +28,13 @@
                             <div class="flex px-[1rem] py-[0.6rem] rounded-[3rem] bg-[#292929]">
                                 <img src="assets/images/home.svg" alt="x">
                             </div>
-                            <div class="text-[white] text-[1.6rem] font-[400] font-(--font-poppins)">
+                            <div class="text-[white] text-[2.4rem] font-[400] font-(--font-poppins)">
                                 About
                             </div>
-                            <div class="text-[white] text-[white] text-[1.6rem] font-[400] font-(--font-poppins)">
+                            <div class="text-[white] text-[2.4rem] font-[400] font-(--font-poppins)">
                                 Projects
                             </div>
-                            <div class="text-[white] text-[white] text-[1.6rem] pr-[3.2rem] font-[400] font-(--font-poppins)">
+                            <div class="text-[white] text-[2.4rem] pr-[3.2rem] font-[400] font-(--font-poppins)">
                                 Contact me
                             </div>
                         </div>    
@@ -43,7 +43,7 @@
                  <!-- bouton de fin de navbar -->
                 <div class="flex max-md:hidden items-center">
                   <div class="flex items-center justify-center p-[0.1rem] h-[4.2rem]  rounded-[4rem]" id="borderlinear">
-                      <button class="text-[#101111] text-[0.9rem] text-[1.6rem]  w-[10.3rem] h-[4rem] rounded-[4rem] bg-gradient-to-r from-[#7A87FB] to-[#FFD49C] font-[500] font-(--font-poppins)">
+                      <button class="text-[#101111] text-[0.9rem] text-[1.6rem] w-[10.3rem] h-[4rem] rounded-[4rem] bg-gradient-to-r from-[#7A87FB] to-[#FFD49C] font-[500] font-(--font-poppins)">
                           Hire me
                       </button>
                   </div> 
@@ -59,60 +59,67 @@
                 </div>
             </nav>
             <!-- grille -->
-            <div class="grid w-full h-[30.964rem] grid-cols-4 grid-rows-7 relative">
-                <div class="border-t-[0.055rem] border-[#FFFFFF33] flex items-center justify-center text-[white]"></div>
-                <div class="border-l-[0.055rem] border-t-[0.055rem] border-[#FFFFFF33] flex items-center justify-center text-[white]"></div>
-                <div class="border-t-[0.055rem] border-x-[0.055rem] border-[#FFFFFF33] flex items-center justify-center text-[white]"></div>
-                <div class="border-t-[0.055rem] border-[#FFFFFF33] flex items-center justify-center text-[white]"></div>
-                <div class="border-t-[0.055rem] gap-[0.6rem] border-[#FFFFFF33] flex flex-col items-center justify-center text-[white]  row-span-3 col-span-4">
-                    <h1 class="text-[white] text-[1.812rem] font-[400] font-(--font-poppins)">I design and build clean websites</h1>
-                    <p class="text-[white] text-[0.9rem] text-center w-[60%] font-[400] font-(--font-poppins)">Write anything here something about yourself to showcase what actually you doing or targeting etc.</p>
-                    <div class="flex items-center justify-center p-[0.15rem] rounded-[2rem]" id="borderlinear">
+            <div class="grid w-full md:w-[fullrem] h-[30.964rem] md:h-[56.8rem] grid-cols-4 md:grid-cols-6 grid-rows-7 relative">
+                <div class="border-t-[0.055rem] md:border-l-[0.055rem] border-[#FFFFFF33] flex items-center justify-center text-[white]"></div>
+                <div class="border-l-[0.055rem] border-t-[0.055rem] md:border-b-[0.055rem] border-[#FFFFFF33] flex items-center justify-center text-[white]"></div>
+                <div class="border-t-[0.055rem] border-x-[0.055rem] md:border-b-[0.055rem]  border-[#FFFFFF33] flex items-center justify-center text-[white]"></div>
+                <div class="border-t-[0.055rem] md:border-r-[0.055rem] md:border-b-[0.055rem] border-[#FFFFFF33] flex items-center justify-center text-[white]"></div>
+                <div class="border-t-[0.055rem] md:border-b-[0.055rem] md:border-r-[0.055rem] gap-[0.6rem] border-[#FFFFFF33] flex flex-col items-center justify-center text-[white] row-span-3 col-span-4 md:row-span-1 md:col-span-1">
+                    <h1 class="text-[white] md:hidden text-[1.812rem] font-[400] font-(--font-poppins)">I design and build clean websites</h1>
+                    <p class="text-[white] md:hidden text-[0.9rem] text-center w-[60%] font-[400] font-(--font-poppins)">Write anything here something about yourself to showcase what actually you doing or targeting etc.</p>
+                    <div class="flex items-center md:hidden justify-center p-[0.15rem] rounded-[2rem]" id="borderlinear">
                         <button class="text-[#101111] text-[0.9rem] w-[6.4rem] h-[2.3rem] rounded-[2rem] bg-gradient-to-r from-[#7A87FB] to-[#FFD49C] font-[500] font-(--font-poppins)">
                             Hire me
                         </button>
                     </div>
                 </div>
-                <div class="border-[#FFFFFF33] flex items-center justify-center text-[white]"></div>
-                <div class="border-l-[0.055rem] border-[#FFFFFF33] flex items-center justify-center text-[white]"></div>
-                <div class="border-r-[0.055rem] border-[#FFFFFF33] flex items-center justify-center text-[white]"></div>
-                <div class="border-[#FFFFFF33] flex items-center justify-center text-[white]"></div>
-                <div class="border-t-[0.055rem] border-[#FFFFFF33] flex items-center justify-center text-[white]"></div>
-                <div class="border-l-[0.055rem] border-t-[0.055rem] border-[#FFFFFF33] flex items-center justify-center text-[white]"></div>
+                <div class="md:border-t-[0.055rem] md:border-r-[0.055rem] md:border-b-[0.055rem]  border-[#FFFFFF33] flex items-center justify-center text-[white]"></div>
+                <div class="border-l-[0.055rem] md:border-t-[0.055rem] md:border-r-[0.055rem] border-[#FFFFFF33] flex items-center justify-center text-[white]"></div>
+                <div class="border-r-[0.055rem] border-[#FFFFFF33] flex flex-col gap-[1.2rem] items-center justify-center text-[white] md:row-span-3 md:col-span-4">
+                    <h1 class="text-[white] max-md:hidden text-[3.2rem] font-[400] font-(--font-poppins)">I design and build clean websites</h1>
+                    <p class="text-[white] max-md:hidden text-[1.6rem] text-center w-[60%] font-[400] font-(--font-poppins)">Write anything here something about yourself to <br> showcase what actually you doing or targeting etc.</p>
+                    <div class="flex items-center max-md:hidden justify-center p-[0.15rem] rounded-[7.2rem]" id="borderlinear">
+                        <button class="text-[#101111] text-[1.6rem] w-[11.8rem] h-[4.2rem] rounded-[7.2rem] bg-gradient-to-r from-[#7A87FB] to-[#FFD49C] font-[500] font-(--font-poppins)">
+                            Hire me
+                        </button>
+                    </div>
+                </div>
+                <div class="md:border-r-[0.055rem] border-[#FFFFFF33] flex items-center justify-center text-[white]"></div>
+                <div class="border-t-[0.055rem] md:border-r-[0.055rem] md:border-l-[0.055rem] border-[#FFFFFF33] flex items-center justify-center text-[white]"></div>
+                <div class="border-l-[0.055rem] md:border-l-[0rem] md:border-r-[0.055rem] border-t-[0.055rem] border-[#FFFFFF33] flex items-center justify-center text-[white]"></div>
                 <div class="border-t-[0.055rem] border-x-[0.055rem] border-[#FFFFFF33] flex items-center justify-center text-[white]"></div>
-                <div class="border-t-[0.055rem] border-[#FFFFFF33] flex items-center justify-center text-[white]"></div>
-                <div class="border-y-[0.055rem] border-[#FFFFFF33] flex items-center justify-center text-[white]"></div>
-                <div class="border-l-[0.055rem] border-y-[0.055rem] border-[#FFFFFF33] flex items-center justify-center text-[white]"></div>
-                <div class="border-[0.055rem] border-[#FFFFFF33] flex items-center justify-center text-[white]"></div>
-                <div class="border-y-[0.055rem] border-[#FFFFFF33] flex items-center justify-center text-[white]"></div>
-                <div class="hidden border-[0.055rem] border-[#FFFFFF33] md:flex items-center justify-center text-[white]">18</div>
-                <div class="hidden border-[0.055rem] border-[#FFFFFF33] md:flex items-center justify-center text-[white]">19</div>
-                <div class="hidden border-[0.055rem] border-[#FFFFFF33] md:flex items-center justify-center text-[white]">20</div>
-                <div class="hidden border-[0.055rem] border-[#FFFFFF33] md:flex items-center justify-center text-[white]">21</div>
-                <div class="hidden border-[0.055rem] border-[#FFFFFF33] md:flex items-center justify-center text-[white]">22</div>
-                <div class="hidden border-[0.055rem] border-[#FFFFFF33] md:flex items-center justify-center text-[white]">23</div>
-                <div class="hidden border-[0.055rem] border-[#FFFFFF33] md:flex items-center justify-center text-[white]">24</div>
-                <div class="hidden border-[0.055rem] border-[#FFFFFF33] md:flex items-center justify-center text-[white]">25</div>
-                <div class="hidden border-[0.055rem] border-[#FFFFFF33] md:flex items-center justify-center text-[white]">26</div>
-                <div class="hidden border-[0.055rem] border-[#FFFFFF33] md:flex items-center justify-center text-[white]">27</div>
-                <div class="hidden border-[0.055rem] border-[#FFFFFF33] md:flex items-center justify-center text-[white]">28</div>
-                <div class="hidden border-[0.055rem] border-[#FFFFFF33] md:flex items-center justify-center text-[white]">29</div>
-                <div class="hidden border-[0.055rem] border-[#FFFFFF33] md:flex items-center justify-center text-[white]">30</div>
-                <div class="hidden border-[0.055rem] border-[#FFFFFF33] md:flex items-center justify-center text-[white]">31</div>
-                <div class="hidden border-[0.055rem] border-[#FFFFFF33] md:flex items-center justify-center text-[white]">32</div>
-                <div class="hidden border-[0.055rem] border-[#FFFFFF33] md:flex items-center justify-center text-[white]">33</div>
-                <div class="hidden border-[0.055rem] border-[#FFFFFF33] md:flex items-center justify-center text-[white]">34</div> 
-                <img class="absolute left-[8.68rem] top-[3.7rem] size-[1.4rem]" src="assets/images/etoile.svg" alt="etoile">
-                <img class="absolute left-[27.4rem] top-[21.45rem] size-[1.4rem]" src="assets/images/etoile.svg" alt="etoile">
+                <div class="border-t-[0.055rem] md:border-r-[0.055rem] border-[#FFFFFF33] flex items-center justify-center text-[white]"></div>
+                <div class="border-y-[0.055rem] md:border-l-[0.055rem] md:border-b-[0rem] border-[#FFFFFF33] flex items-center justify-center text-[white]"></div>
+                <div class="border-l-[0.055rem] border-y-[0.055rem] md:border-b-[0rem] border-[#FFFFFF33] flex items-center justify-center text-[white]"></div>
+                <div class="border-[0.055rem] md:border-b-[0rem] border-[#FFFFFF33] flex items-center justify-center text-[white]"></div>
+                <div class="border-y-[0.055rem] md:border-b-[0rem] border-[#FFFFFF33] flex items-center justify-center text-[white]"></div>
+                <div class="hidden border-[0.055rem] md:border-b-[0rem] border-[#FFFFFF33] md:flex items-center justify-center text-[white]"></div>
+                <div class="hidden border-[0.055rem] md:border-b-[0rem] border-l-[0rem] border-[#FFFFFF33] md:flex items-center justify-center text-[white]"></div>
+                <div class="hidden border-[0.055rem] md:border-b-[0rem] border-[#FFFFFF33] md:flex items-center justify-center text-[white]"></div>
+                <div class="hidden border-[0.055rem] md:border-b-[0rem] md:border-l-[0rem] border-[#FFFFFF33] md:flex items-center justify-center text-[white]"></div>
+                <div class="hidden border-[0.055rem] md:border-b-[0rem] md:border-l-[0rem] border-[#FFFFFF33] md:flex items-center justify-center text-[white]"></div>
+                <div class="hidden border-[0.055rem] md:border-b-[0rem] md:border-l-[0rem] border-[#FFFFFF33] md:flex items-center justify-center text-[white]"></div>
+                <div class="hidden border-[0.055rem] md:border-b-[0rem] md:border-l-[0rem] border-[#FFFFFF33] md:flex items-center justify-center text-[white]"></div>
+                <div class="hidden border-[0.055rem] md:border-b-[0rem] md:border-l-[0rem] border-[#FFFFFF33] md:flex items-center justify-center text-[white]"></div>
+                <div class="hidden border-[0.055rem] border-[#FFFFFF33] md:border-b-[0rem] md:flex items-center justify-center text-[white]"></div>
+                <div class="hidden border-[0.055rem] md:border-l-[0rem] md:border-b-[0rem] border-[#FFFFFF33] md:flex items-center justify-center text-[white]"></div>
+                <div class="hidden border-[0.055rem] md:border-l-[0rem] md:border-b-[0rem] border-[#FFFFFF33] md:flex items-center justify-center text-[white]"></div>
+                <div class="hidden border-[0.055rem] md:border-l-[0rem] md:border-b-[0rem] border-[#FFFFFF33] md:flex items-center justify-center text-[white]"></div>
+                <div class="hidden border-[0.055rem] md:border-l-[0rem] md:border-b-[0rem] border-[#FFFFFF33] md:flex items-center justify-center text-[white]"></div>
+                <div class="hidden border-[0.055rem] md:border-l-[0rem] md:border-b-[0rem] border-[#FFFFFF33] md:flex items-center justify-center text-[white]"></div>  
+                <img class="absolute left-[8.68rem] md:left-[111.2rem] top-[3.7rem] md:top-[6.6rem] size-[1.4rem] md:size-[3.1rem]" src="assets/images/etoile.svg" alt="etoile">
+                <img class="absolute left-[27.4rem] md:left-[21rem] top-[21.45rem] md:top-[30.956rem] size-[1.4rem] md:size-[3.1rem]" src="assets/images/etoile.svg" alt="etoile">
             </div>
         </header>
-        <div class="flex gap-[2.6rem] items-center justify-center h-[5.6rem] border-b-[0.055rem] border-[#FFFFFF33]">
-            <span class="text-[white] text-[1.4rem] font-[400] font-(--font-poppins)">Framer</span>
-            <img src="assets/images/asterice.svg" alt="asterice">
-            <span class="text-[white] text-[1.4rem] font-[400] font-(--font-poppins)">Webflow</span>
-            <img src="assets/images/asterice.svg" alt="asterice">
-            <span class="text-[white] text-[1.4rem] font-[400] font-(--font-poppins)">Figma</span>
-            <img src="assets/images/asterice.svg" alt="asterice">
+        <div class="flex gap-[2.6rem] md:px-[17.1rem] md:w-[full] items-center justify-center md:justify-between h-[5.6rem] md:h-[7rem] border-b-[0.055rem] md:border-t-[0.055rem] border-[#FFFFFF33]">
+            <span class="text-[white] text-[1.4rem] md:text-[2rem] font-[400] font-(--font-poppins)">Framer</span>
+            <img class="md:size-[2.4rem]" src="assets/images/asterice.svg" alt="asterice">
+            <span class="text-[white] text-[1.4rem] md:text-[2rem] font-[400] font-(--font-poppins)">Webflow</span>
+            <img class="md:size-[2.4rem]" src="assets/images/asterice.svg" alt="asterice">
+            <span class="text-[white] text-[1.4rem] md:text-[2rem] font-[400] font-(--font-poppins)">Figma</span>
+            <img class="md:size-[2.4rem]" src="assets/images/asterice.svg" alt="asterice">
+            <span class="text-[white] text-[2rem] max-md:hidden font-[400] font-(--font-poppins)">notion</span>
+            <img class="size-[2.4rem] max-md:hidden" src="assets/images/asterice.svg" alt="asterice"> 
         </div>
         <div class="px-[2.3rem] mt-[4.7rem] flex flex-col gap-[5.2rem]">
             <div class="flex gap-[1.2rem] items-center">
